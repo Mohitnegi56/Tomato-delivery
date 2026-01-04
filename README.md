@@ -62,7 +62,7 @@ https://tomato-delivery-backend-q5bh.onrender.com
 ---
 
 ## 📂 Project Structure
-
+```bash
 Tomato_app_delivery/
 │
 ├── backend/
@@ -82,11 +82,8 @@ Tomato_app_delivery/
 ├── .gitignore/
 |
 └── README.md
+```
 
-yaml
-Copy code
-
----
 
 ## ⚙️ Run Project Locally
 
