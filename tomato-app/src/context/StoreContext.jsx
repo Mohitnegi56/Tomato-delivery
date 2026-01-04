@@ -5,7 +5,7 @@ export const StoreContext = createContext(null)
 
 const StoreContextProvider = ({ children }) => {
 
-  const url = "http://localhost:4000"
+  const url = "https://tomato-delivery-backend-q5bh.onrender.com"
 
   const [food_list, setFoodList] = useState([])
   const [cartItems, setCartItems] = useState({})
