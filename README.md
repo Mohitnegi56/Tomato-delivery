@@ -95,20 +95,23 @@ Copy code
 cd backend
 npm install
 npm start
+```
 
-2️⃣ Frontend (User)
-bash
+### 2️⃣ Frontend (User)
+```bash
 Copy code
 cd frontend
 npm install
 npm run dev
+```
 
 3️⃣ Admin Panel
-bash
+```bash
 Copy code
 cd admin
 npm install
 npm run dev
+```
 
 🔐 Environment Variables
 Create a .env file inside the backend/ directory:
@@ -119,31 +122,19 @@ PORT=4000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 STRIPE_SECRET_KEY=your_stripe_secret_key
-⚠️ Note:
 
+⚠️ Note:
 .env is ignored using .gitignore
 
 Secrets are stored securely in Render environment variables for production
 
 🔒 Authentication & Security
 JWT-based authentication
-
 Protected user and admin routes
-
 Middleware-based authorization
-
 Environment-based secret management
-
 Secure API access for admin operations
 
-🧪 Test Payment (Stripe)
-Use Stripe test card:
-
-yaml
-Copy code
-Card Number: 4242 4242 4242 4242
-Expiry: Any future date
-CVC: Any 3 digits
 
 🏁 Deployment Status
 ✔ Backend deployed on Render
